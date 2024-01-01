@@ -3,6 +3,7 @@ project(project_name C)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_C_COMPILER "avr-gcc")
 
+
 set(SOURCE_FILES
     project_name.c
 )

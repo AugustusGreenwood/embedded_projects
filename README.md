@@ -27,4 +27,5 @@ Figure out why some of the weirdness with the register addresses in the datashee
 Add other registers that may be needed
 
 
-Shout-out to my man Mitch Davis for helping me get started: https://www.youtube.com/@MitchDavis2
+# References
+Shout-out to my man Mitch Davis for helping me get started, never would have figured using a programmer without him: https://youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR&si=jjZSGxK1yjPyKRYl
