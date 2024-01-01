@@ -34,7 +34,7 @@ add_custom_command(TARGET project_name POST_BUILD
     COMMENT "Generating HEX file"
 )
 
-# Upload HEX file using avrdude (example)
+# Upload HEX file using avrdude
 add_custom_target(upload
     COMMAND avrdude -C /etc/avrdude.conf -v -V -p ${MCU} -c ${PROGRAMMER} -P ${PORT} -b ${BAUD} -U flash:w:${PROJECT_NAME}.hex:i
     DEPENDS project_name

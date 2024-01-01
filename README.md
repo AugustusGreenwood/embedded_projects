@@ -16,13 +16,15 @@ I set up a CMakeLists file to be used. It's not very interactive and just for my
 
 
 
-
-
-
-
-
-
-
+# TODO
+Next project needs some more complex logic to play around with. ie get input and turn light on, get different turn off etc. Would also like to play with some sensors:
+    water sensor
+    motion sensor
+    sound sensor
+    Should be fun
+Create own delay function to replace arduino/util-time.h
+Figure out why some of the weirdness with the register addresses in the datasheet
+Add other registers that may be needed
 
 
 Shout-out to my man Mitch Davis for helping me get started: https://www.youtube.com/@MitchDavis2
