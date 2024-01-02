@@ -9,7 +9,7 @@ set(SOURCE_FILES
 
 include_directories(
     include/
-    ../include/
+    /usr/avr/include/
 )
 
 set(MCU "atmega2560" CACHE STRING "Architechure to compile for")

@@ -1,23 +1,12 @@
-#include "atmega2560.h"
+#include <avr/io.h>
 #include <util/delay.h>
 
-void setup() {
-    DDRB = (1 << 7);
-    PORTB = 0;
-}
-
-void loop() {
-    PORTB ^= (1 << 7);
-    _delay_ms(500);
-    PORTB ^= (1 << 7);
-    _delay_ms(500);
-}
-
 int main() {
-    setup();
+    DDRB = (1 << 5);
 
     while (1) {
-        loop();
+        PORTB ^= (1 << 5);
+        _delay_ms(1000);
     }
     return 0;
 }

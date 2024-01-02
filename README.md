@@ -22,10 +22,8 @@ Next project needs some more complex logic to play around with. ie get input and
     motion sensor
     sound sensor
     Should be fun
-Create own delay function to replace arduino/util-time.h
 Figure out why some of the weirdness with the register addresses in the datasheet
-Add other registers that may be needed
 
 
 # References
-Shout-out to my man Mitch Davis for helping me get started, never would have figured using a programmer without him: https://youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR&si=jjZSGxK1yjPyKRYl
+Shout-out to my man Mitch Davis for helping me get started: https://youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR&si=jjZSGxK1yjPyKRYl
